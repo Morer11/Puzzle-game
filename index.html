@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Welcome to Sliding Puzzle Game</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcome-container {
+    background: rgba(0,0,0,0.6);
+    padding: 40px 60px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.3em;
+    letter-spacing: 5px;
+    font-weight: 900;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  }
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 2em;
+    text-shadow: 0 0 10px rgba(255 255 255 / 0.3);
+  }
+  a.start-btn {
+    background: #ffe066;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 14px 48px;
+    border-radius: 14px;
+    text-decoration: none;
+    box-shadow: 0 8px 24px #ffdd55cc;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    user-select: none;
+  }
+  a.start-btn:hover, a.start-btn:focus {
+    background: #ffcc00;
+    box-shadow: 0 10px 30px #ffcc0088;
+    outline: none;
+  }
+</style>
+</head>
+<body>
+  <div class="welcome-container" role="main" aria-label="Welcome to Sliding Puzzle Game">
+    <h1>Sliding Puzzle Game</h1>
+    <p>Welcome! Solve sliding puzzles with 30 levels of increasing difficulty and beautiful images.<br>Click below to start the game and enjoy!</p>
+    <a href="game.html" class="start-btn" role="button" aria-label="Start Sliding Puzzle Game">Start Game</a>
+  </div>
+</body>
+</html>
+
